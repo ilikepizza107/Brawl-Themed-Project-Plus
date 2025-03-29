@@ -252,7 +252,7 @@
           "Multiplier": null,
           "Offset": null,
           "AddTerminatorFrame": false,
-          "NormalizeTextureIds": true
+          "NormalizeTextureIds": false
         }
       ],
       "Prefix": "MenSelchrChrFace",
@@ -266,7 +266,7 @@
         "Width": 80,
         "Height": 56
       },
-      "Format": 14,
+      "Format": 9,
       "FirstOnly": false,
       "SeparateFiles": false,
       "CompressionType": 0,
@@ -1934,6 +1934,122 @@
       "Size": {
         "Width": 32,
         "Height": 32
+      },
+      "Format": 9,
+      "FirstOnly": false,
+      "SeparateFiles": false,
+      "CompressionType": 0,
+      "FileType": 1,
+      "AlwaysInheritStyle": false,
+      "Required": true,
+      "Enabled": true,
+      "Selectable": false,
+      "AlwaysCreateArchive": true
+    },
+    {
+      "CosmeticType": 0,
+      "Style": "vBrawl",
+      "InstallLocation": {
+        "FilePath": "pf\\menu2\\sc_selcharacter.pac",
+        "NodePath": "Misc Data [70]",
+        "FileExtension": "brres"
+      },
+      "HDImageLocation": "",
+      "CreateHDTextureFolder": false,
+      "ModelPath": null,
+      "PatSettings": [
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceA_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceB_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceC_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceD_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceE_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceF_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceG_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceH_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        },
+        {
+          "Path": "Misc Data [30]/AnmTexPat(NW4R)/MenSelchrFaceI_TopN__0/Face02/Texture0",
+          "FramesPerImage": 10,
+          "IdType": null,
+          "Multiplier": null,
+          "Offset": null,
+          "AddTerminatorFrame": false,
+          "NormalizeTextureIds": false
+        }
+      ],
+      "Prefix": "MenSelchrChrFace",
+      "Multiplier": 10,
+      "Offset": 0,
+      "SuffixDigits": 3,
+      "GroupMultiplier": 1,
+      "FilePrefix": "",
+      "IdType": 4,
+      "Size": {
+        "Width": 80,
+        "Height": 56
       },
       "Format": 9,
       "FirstOnly": false,
