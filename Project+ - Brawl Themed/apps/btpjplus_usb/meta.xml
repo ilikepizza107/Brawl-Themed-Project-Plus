@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <app version="1">
-	<name>Brawl Themed Project+</name>
-	<coder>ilikepizza107 w/ credit to the P+DT</coder>
-	<version>3.0.5</version>
-	<release_date>202301311200</release_date>
+	<name>Brawl Themed Project+ USB Loader</name>
+	<version>1</version>		\\Configurable SD/USB Loader v70r78.11 by oggzee, usptactical, gannon, Dr. Clipper, R2-D2199, FIX94, airline38, Howard, NiTRo THe DeMoN
+	<release_date>202503051800</release_date>
+	<coder>ilikepizza107 w/ credit to the P+DT</coder>	\\Kirbeast, waffeln, Bird
 	<short_description>Brawl Themed Project+ USB Loader</short_description>
-<long_description>Brawl Themed Project+ is a mod of Project+ with the gameplay and QoL of P+ and the asthetics of Brawl. This mod would not be possible without the longstanding support of the Brawl Modding community. Thank you for playing!</long_description>
+<long_description>
+Brawl Themed Project +. All changes are not final.
+
+This is a modified version of CFG USB Loader designed for instantly loading Brawl Themed Project+ via USB.
+</long_description>
 <ahb_access/>
 <arguments>
 <arg>RSBE01</arg>
