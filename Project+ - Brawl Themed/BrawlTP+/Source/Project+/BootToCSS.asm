@@ -95,5 +95,5 @@ HOOK @ $8002D3A0
   stb r5, 0x2A5(r28);    stb r5, 0x2B1(r28)
   li r30, 0x0
 }
-op b 0x10 @ $80078E14
+# op b 0x10 @ $80078E14 # Commenting this out to restore vBrawl behavior when it comes to re-rolling menu music
 op nop    @ $806DD5FC

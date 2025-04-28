@@ -381,6 +381,7 @@ Wii Files
 ########################################
 
 Launcher by Glitch, Kirbeast, and DiXaR with credit to ShortFuse, and the USB Loader GX Team, with edits by ilikepizza107
+st_btpjplus.bin by Glitch
 
 #################
 Special Thanks
