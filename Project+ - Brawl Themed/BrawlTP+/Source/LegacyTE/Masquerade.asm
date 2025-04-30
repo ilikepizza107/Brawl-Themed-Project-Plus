@@ -12,6 +12,29 @@ To use costume-specific transforms, comment out this code
 #################################################################################
 word 0x0 @ $80AD81DC
 
+##########################################################################
+[Brawl-Themed Project+] Giga Bowser & Wario Man use one BP [ilikepizza107]
+
+Forces transforms to vBrawl behavior while keeping .masq compatability.
+To use costume-specific cosmetics, comment out this code
+##########################################################################
+HOOK @ $800E206C   # Hooking at setStockFace/[ifPlayer]
+{
+ mr r5, r26         # Restore original instruction
+ cmpwi r5, 0x899    # Are we not Giga Bowser?
+ blt end            # No changes needed
+ cmpwi r5, 0x8CB    # Are we Giga Bowser?
+ blt setgigabowser
+ cmpwi r5, 0xCE5    # Are we not Wario Man?
+ blt end            # No changes needed
+ cmpwi r5, 0xD16    # Are we Wario Man?
+ li r5, 0xCE5       # Set the BP
+ b end
+ setgigabowser:
+ li r5, 0x899       # Set the BP
+ end:
+}
+
 ############################################################################################
 [Legacy TE] Set Masquerade Costume Count to Zero to have up to 50 costumes v1.1c [DukeItOut]
 v1.1a - Updated to Support 128 Unique Costume IDs per character
