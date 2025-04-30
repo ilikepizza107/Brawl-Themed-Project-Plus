@@ -22,17 +22,16 @@ HOOK @ $800E206C   # Hooking at setStockFace/[ifPlayer]
 {
  mr r5, r26         # Restore original instruction
  cmpwi r5, 0x899    # Are we not Giga Bowser?
- blt end            # No changes needed
+ blt %END%          # No changes needed
  cmpwi r5, 0x8CB    # Are we Giga Bowser?
  blt setgigabowser
  cmpwi r5, 0xCE5    # Are we not Wario Man?
- blt end            # No changes needed
+ blt %END%          # No changes needed
  cmpwi r5, 0xD16    # Are we Wario Man?
  li r5, 0xCE5       # Set the BP
- b end
+ b %END%
  setgigabowser:
  li r5, 0x899       # Set the BP
- end:
 }
 
 ############################################################################################
