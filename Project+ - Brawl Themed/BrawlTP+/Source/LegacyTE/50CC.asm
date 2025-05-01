@@ -1,5 +1,5 @@
 ######################################################################
-Individual Stock Icons (info.pac) v3.1 50CC [ds22, wiiztec, DukeItOut]
+!Individual Stock Icons (info.pac) v3.1 50CC [ds22, wiiztec, DukeItOut]
 ######################################################################
 # V3: No longer uses a PAT animation to change textures.
 # 3.1: Adapted to use a unified stock archive.
@@ -99,7 +99,7 @@ HOOK @ $800E216C
 # * 044949F0 00180000 # InfoResource size
 
 #############################################################################
-[Legacy TE] Transforming Characters Switch Stocks V2 [PyotrLuzhin, DukeItOut]
+![Legacy TE] Transforming Characters Switch Stocks V2 [PyotrLuzhin, DukeItOut]
 #
 # V2: added support for reading the texture directly instead of relying upon
 #	an animation.
