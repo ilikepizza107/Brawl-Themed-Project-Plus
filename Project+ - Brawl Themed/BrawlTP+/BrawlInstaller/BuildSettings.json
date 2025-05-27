@@ -33,7 +33,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 1,
@@ -68,7 +69,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 3,
@@ -122,7 +124,8 @@
       "Enabled": false,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 2,
@@ -157,7 +160,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 8,
@@ -192,7 +196,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 0,
@@ -237,7 +242,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 0,
@@ -282,7 +288,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 6,
@@ -327,7 +334,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 9,
@@ -362,7 +370,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -407,7 +416,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -442,7 +452,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 10,
@@ -477,7 +488,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 11,
@@ -512,7 +524,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 12,
@@ -566,7 +579,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 13,
@@ -611,7 +625,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 14,
@@ -656,7 +671,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 14,
@@ -701,7 +717,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 14,
@@ -746,7 +763,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 13,
@@ -791,7 +809,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 12,
@@ -845,7 +864,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 15,
@@ -899,7 +919,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 15,
@@ -953,7 +974,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 16,
@@ -998,7 +1020,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 14,
@@ -1043,7 +1066,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 21,
@@ -1078,7 +1102,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1123,7 +1148,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1168,7 +1194,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1213,7 +1240,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1258,7 +1286,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1303,7 +1332,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1348,7 +1378,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1393,7 +1424,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 8,
@@ -1428,7 +1460,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 7,
@@ -1473,7 +1506,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 6,
@@ -1508,7 +1542,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 6,
@@ -1562,7 +1597,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 18,
@@ -1616,7 +1652,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 18,
@@ -1670,7 +1707,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 19,
@@ -1715,7 +1753,8 @@
       "Enabled": true,
       "Selectable": true,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 20,
@@ -1760,7 +1799,8 @@
       "Enabled": false,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 8,
@@ -1795,7 +1835,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 8,
@@ -1830,7 +1871,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 5,
@@ -1875,7 +1917,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     },
     {
       "CosmeticType": 0,
@@ -1992,7 +2035,8 @@
       "Enabled": true,
       "Selectable": false,
       "AlwaysCreateArchive": true,
-      "PaletteCount": 256
+      "PaletteCount": 256,
+      "ImportTextures": true
     }
   ],
   "SoundSettings": {
@@ -2146,9 +2190,9 @@
     ],
     "AsmPaths": [
       {
-        "Label": "TABLE_STAGES:",
+        "Label": "",
         "FileType": 16,
-        "Path": "Source\\Stagelists\\Brawl.asm"
+        "Path": "pf\\stage\\switch\\Switch00.rss"
       },
       {
         "Label": "ClassicResultsTable:",
