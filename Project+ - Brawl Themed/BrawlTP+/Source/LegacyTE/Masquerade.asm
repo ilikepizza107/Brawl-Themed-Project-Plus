@@ -99,7 +99,7 @@ op rlwinm r0, r6, 0, 28, 31 @ $8082A91C
 byte 50 @ $806B2FFF
 # Overwrites the old constants the game used as the frames for Random Icons with 50CC compliant ones.
 # First value should be left as is, second value should be the first plus how many colored random icons you need!
-float[2] 3351.0f, 3355.0f @ $806B91B0
+float[2] 3351.0f, 3351.0f @ $806B91B0
 
 ###################################################################
 [Legacy TE] Upload Character Masquerade Data At Startup [DukeItOut]
