@@ -7,32 +7,41 @@ op subi r0, r31, 0x32 @ $8084CD48
 #################################################################################
 [Brawl-Themed Project+] Giga Bowser and Wario-Man force Fit00.pac [ilikepizza107]
 
-Reverts transforms to vBrawl behavior while keeping .masq compatability. 
+Reverts transforms to vBrawl behavior while keeping .masq compatability and
+accounting for the fact that you can select Giga Bowser/Wario Man on the CSS
+via an L-Load. This code accounts for both selecting on the CSS and transforming
+during a Final Smash. Also allows for you to have just one cosmetic per character.
 To use costume-specific transforms, comment out this code
 #################################################################################
-word 0x0 @ $80AD81DC
-
-##########################################################################
-[Brawl-Themed Project+] Giga Bowser & Wario Man use one BP [ilikepizza107]
-
-Forces transforms to vBrawl behavior while keeping .masq compatability.
-To use costume-specific cosmetics, comment out this code
-##########################################################################
-HOOK @ $800E206C   # Hooking at setStockFace/[ifPlayer]
+HOOK @ $80684818      # Hooking at setToGlobal/[muSelCharTask] to force selection to costume ID 0
 {
- mr r5, r26         # Restore original instruction
- cmpwi r5, 0x899    # Are we not Giga Bowser?
- blt %END%          # No changes needed
- cmpwi r5, 0x8CB    # Are we Giga Bowser?
+  cmpwi r29, 0x0C     # Are we Bowser?
+  beq setCostume
+  cmpwi r29, 0x15     # Are we Wario?
+  bne end
+setCostume:
+  li r28, 0x0         # Force default costume
+end:
+  li r0, 1            # Restore original Instruction
+}
+
+HOOK @ $800E206C      # Hooking at setStockFace/[ifPlayer] to set the BP during an FS transform
+{
+ mr r5, r26           # Restore original instruction
+ cmpwi r5, 0x899      # Are we not Giga Bowser?
+ blt %END%            # No changes needed
+ cmpwi r5, 0x8CB      # Are we Giga Bowser?
  blt setgigabowser
- cmpwi r5, 0xCE5    # Are we not Wario Man?
- blt %END%          # No changes needed
- cmpwi r5, 0xD16    # Are we Wario Man?
- li r5, 0xCE5       # Set the BP
+ cmpwi r5, 0xCE5      # Are we not Wario Man?
+ blt %END%            # No changes needed
+ cmpwi r5, 0xD16      # Are we Wario Man?
+ li r5, 0xCE5         # Set the BP
  b %END%
  setgigabowser:
- li r5, 0x899       # Set the BP
+ li r5, 0x899         # Set the BP
 }
+
+word 0x0 @ $80AD81DC  # Force loading costume ID 0 during an FS transform
 
 ############################################################################################
 [Legacy TE] Set Masquerade Costume Count to Zero to have up to 50 costumes v1.1c [DukeItOut]
