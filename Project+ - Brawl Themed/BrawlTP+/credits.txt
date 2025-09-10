@@ -20,6 +20,10 @@ Brawl P+ Dev
 Brawl P+ Testers
 ################
 -Tuck
+
+#####################
+Past Brawl P+ Testers
+#####################
 -FingerStripes
 -SoulOfficer
 -SparkSwordKirby
