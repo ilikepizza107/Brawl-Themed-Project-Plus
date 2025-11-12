@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<app version="1.14, 3.0 r1272 Mod"> //ShortFuse, Glitch, Kirbeast, USB Loader GX Team
-	<name>Brawl Themed Project+</name>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.15">
+	<name>Brawl Themed Project+ Launcher</name>
+	<version>3.1.5</version>
 	<coder>ilikepizza107 w/ credit to the P+DT</coder>
-	<version>3.1.2</version>
-	<release_date>202505011800</release_date>
+	<release_date>202511121800</release_date>
 	<short_description>Brawl Themed Project+ Launcher</short_description>
-	<long_description>                              HOLD A FOR LAUNCHER MENU
-
+	<long_description>
 Brawl Themed Project+ is a mod of Project+ with the gameplay and QoL of P+ and the asthetics of Brawl. This mod would not be possible without the longstanding support of the Brawl Modding community. Thank you for playing!</long_description>
+	<arguments>
+		<arg>--codespath=sd:/brawltp+</arg>
+	</arguments>
+	<ahb_access/>
 </app>
