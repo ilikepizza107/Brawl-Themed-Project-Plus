@@ -508,7 +508,7 @@ Temporary Mewtwo Fix [KingJigglypuff]
 #####################################
 #Fixes Mewtwo from conflicting with the Pokemon Trainer within Subspace.
 string "Mewtwo" @ $80456528
-byte[4] 0x26, 1, 0x33, -1 @ $804559A8
+byte[4] 0x23, 1, 0x33, -1 @ $804559A8
 
 ###########################################
 Subspace Extra Slots Sticker Fix [MarioDox]
